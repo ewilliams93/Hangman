@@ -5,7 +5,6 @@ print (word_list)
 print(random.choice(word_list))
 
 word = random.choice(word_list)
-
 print (word)
 
 print ('Enter a single letter: ')
