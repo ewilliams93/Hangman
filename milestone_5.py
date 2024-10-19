@@ -1,13 +1,12 @@
-#%%
-
 import random
 from milestone_2.py import word_list
 
-## create class
 ## num_lives: int - The number of lives the player has at the start of the game.
 ## word_list: list - A list of words
 
-class Hangman
+class Hangman:
+   num_lives = 5
+   word_list = ["apple", "banana", "kiwi", "strawberry", "peach"]
    def __init__ (self, word_list, num_lives = 5):
      self.word_list = word_list
      self.num_lives = num_lives
