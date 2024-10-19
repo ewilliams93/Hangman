@@ -60,7 +60,7 @@ check_guess()
 def ask_for_input (self, ask_for_input):
    while True:
     guess = input()
-    if guess.isalpha() =!:
+    if guess.isalpha() != True:
         print ("Invalid letter. Please, enter a single alphabetical character.")
     elif guess in list_of_guesses:
         print ("You already tried that letter!")
